@@ -1,3 +1,40 @@
 /* Journey to the Center of the Earth Practicum*/
 /*Lori-Ann Nembhard*/
 
+/*body{
+    background-color: #765729;
+}*/
+
+/* Since header and footer have similar style, I grouped them together as shown below*/
+header, footer{
+    background-color: #886644;
+    text-align: center;
+    border: 20px solid  #886644;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    margin:3px 5px 5px ;
+    box-shadow: 5px 5px 5px #765729 inset  ;
+}
+nav {
+    align-content: center;
+    border: 3px solid #886644;
+    box-shadow: 5px 5px 5px #765729 inset;
+}
+main{
+    border: solid #886644;
+    margin: 5px 5px 5px ;
+    padding: 15px;
+    box-shadow: 5px 5px 5px #765729 inset;
+}
+aside{
+    border: solid #886644;
+    box-shadow: 5px 5px 5px #765729 inset;
+    margin: 3px 3px 3px;
+    padding: 20px;
+}
+#cryptogram{
+text-align: center;
+}
+
+
