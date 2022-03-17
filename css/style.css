@@ -5,7 +5,9 @@
     background-color: #765729;
 }*/
 
-/* Since header and footer have similar style, I grouped them together as shown below*/
+/* Since header and footer have similar style, 
+I grouped them together as shown below*/
+
 header, footer{
     background-color: #886644;
     text-align: center;
@@ -15,7 +17,7 @@ header, footer{
     padding: 20px;
     margin:3px 5px 5px ;
     box-shadow: 5px 5px 5px #765729 inset  ;
-    background-image: url("../../media/examples/lizard.png");
+    
     
 }
 nav {
@@ -37,11 +39,38 @@ aside{
 }
 #cryptogram{
 text-align: center;
-font-weight: bold;
+font-weight: italic;
+}
+
+figcaption{
+    font-style: italic;
 }
 h2{
     font-weight: bold;   
 }
 .character{
     font-weight: bold;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: #886644 ;
+}
+body{
+    background-image: linear-gradient(#886644, black);
+}
+header, nav, main, aside, footer{
+    background-color: rgba(255,255,255, .75);
+}
+header{
+    background-image: url(/img/cave.jpg);
+    border: solid #886644 ;
+    box-shadow: 5px 5px 20px black inset;
+    font-family: georgia;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+   /* text-shadow: ;*/
+
 }
