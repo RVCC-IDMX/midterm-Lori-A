@@ -8,34 +8,45 @@
 /* Since header and footer have similar style, 
 I grouped them together as shown below*/
 
-header, footer{
-    background-color: #886644;
+header{
+    background-color: rgba(255,255,255, .75);
     text-align: center;
     border: 20px solid  #886644;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 20px;
     margin:3px 5px 5px ;
-    box-shadow: 5px 5px 5px #765729 inset  ;
+
+   
+   
     
     
 }
 nav {
-    align-content: center;
+    text-align: center;
     border: 3px solid #886644;
     box-shadow: 5px 5px 5px #765729 inset;
+    background-color: rgba(255,255,255, .75);
 }
+ 
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
 main{
     border: solid #886644;
     margin: 5px 5px 5px ;
     padding: 15px;
     box-shadow: 5px 5px 5px #765729 inset;
+    
 }
 aside{
     border: solid #886644;
     box-shadow: 5px 5px 5px #765729 inset;
     margin: 3px 3px 3px;
     padding: 20px;
+  
 }
 #cryptogram{
 text-align: center;
@@ -60,9 +71,13 @@ a:hover{
 body{
     background-image: linear-gradient(#886644, black);
 }
-header, nav, main, aside, footer{
+header, main, aside{
     background-color: rgba(255,255,255, .75);
+   
 }
+
+
+
 header{
     background-image: url(/img/cave.jpg);
     border: solid #886644 ;
@@ -72,5 +87,15 @@ header{
     color: white;
     font-size: larger;
    /* text-shadow: ;*/
-
+}
+footer{
+    background-color: rgba(255,255,255, .75);
+    border: solid #765729;
+    box-shadow: 5px 5px 50px gray inset;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    margin:3px 5px 5px ;
+   
 }
