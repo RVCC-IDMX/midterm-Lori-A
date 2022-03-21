@@ -137,5 +137,15 @@ footer{
     border-bottom-right-radius: 30px;
     text-align: center;
     margin:3px 5px 5px ;
-   
-}
+   }
+   @media screen and (min-width: 786px) {
+       aside{
+           display: grid;
+           grid-column: 3;
+           
+       }
+       h1{
+           font-size: 2em;
+       }
+       
+   }
