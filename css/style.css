@@ -1,0 +1,172 @@
+/* Journey to the Center of the Earth Practicum*/
+/*Lori-Ann Nembhard*/
+
+/*body{
+    background-color: #765729;
+}*/
+
+/* Since header and footer have similar style, 
+I grouped them together as shown below*/
+
+header{
+    background-color: rgba(255,255,255, .75);
+    text-align: center;
+    border: 20px solid  #886644;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    margin:3px 5px 5px ;
+
+   
+   
+    
+    
+}
+nav {
+    text-align: center;
+    border: 3px solid #886644;
+    box-shadow: 5px 5px 5px #765729 inset;
+    background-color: rgba(255,255,255, .75);
+}
+ 
+nav li{
+    display: inline-block;
+    padding: 20px;
+    height: .2px;
+    border-right: double ;
+    text-decoration: none;
+   
+    
+}
+nav li:last-child{
+     border-style: none;
+}
+
+main{
+    border: solid #886644;
+    margin: 5px 5px 5px ;
+    padding: 15px;
+    box-shadow: 5px 5px 5px #765729 inset;
+    
+    
+}
+aside{
+    border: solid #886644;
+    box-shadow: 5px 5px 5px #765729 inset;
+    margin: 3px 3px 3px;
+    padding: 20px;
+    
+  
+}
+figure {
+   
+    font-weight: italic;
+    
+   float: left;
+    clear: right;
+
+
+}
+figure img{
+    align-content: center;
+    
+    clear: both;
+}
+
+figcaption{
+    font-style: italic;
+}
+h2{
+    font-weight: bold;  
+    text-decoration: underline dotted black; 
+    
+}
+
+.character{
+    font-weight: bold;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: #886644 ;
+}
+body{
+    background-image: linear-gradient(#765729, black);
+}
+header, main, aside{
+    background-color: rgba(255,255,255, .75);
+   
+}
+
+
+
+
+
+ main img{
+     
+     margin: 10px;
+     padding: 20px;
+     float: left;
+     
+ }
+
+
+ 
+main p::first-line
+{
+    
+    float: left;
+    clear: both;
+}
+
+header{
+    background-image: url(/img/cave.jpg);
+    border: solid #886644 ;
+    box-shadow: 5px 5px 20px black inset;
+    font-family: georgia;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    text-shadow: .5px 1px white ; 
+}
+
+.submission   {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    border: solid;
+    margin-top: 10px;
+}
+.signature{
+    text-align: right;
+}
+footer{
+    background-color: rgba(255,255,255, .75);
+    border: solid #765729;
+    box-shadow: 5px 5px 50px gray inset;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    margin:3px 5px 5px ;
+   }
+   @media screen and (min-width: 786px) {
+       aside{
+           display: grid;
+           grid-column: 3;
+           
+       }
+       h1{
+           font-size: 2em;
+       }
+       
+       @media screen and (min-width: 1024px){
+           aside{
+               display: grid;
+               grid-column: 2;
+               max-width: 1200px;
+           }
+
+       }
+   }
