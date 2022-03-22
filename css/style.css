@@ -1,17 +1,13 @@
 /* Journey to the Center of the Earth Practicum*/
 /*Lori-Ann Nembhard*/
 
-/*body{
-    background-color: #765729;
-}*/
-
-/* Since header and footer have similar style, 
-I grouped them together as shown below*/
+/* For my understanding, I separated each structural elements*/
 
 header{
     background-color: rgba(255,255,255, .75);
     text-align: center;
     border: 20px solid  #886644;
+    box-shadow: 5px 5px 5px #765729 inset;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 20px;
@@ -56,8 +52,11 @@ aside{
     margin: 3px 3px 3px;
     padding: 20px;
     
-  
 }
+
+
+
+
 figure {
    
     font-weight: italic;
