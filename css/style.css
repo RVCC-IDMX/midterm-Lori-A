@@ -164,7 +164,8 @@ footer{
        @media screen and (min-width: 1024px){
            aside{
                display: grid;
-               grid-column: 1;
+               grid-column: 2;
+               max-width: 1200px;
            }
 
        }
