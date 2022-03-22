@@ -30,9 +30,15 @@ nav {
 }
  
 nav li{
-    display: inline-block;
-    padding: 20px;
+    display: inline;
+    border-left: 2px double black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
     
+}
+nav li:first-child{
+    border: none;
 }
 
 main{
@@ -72,11 +78,13 @@ h2{
 .character{
     font-weight: bold;
 }
-a:link{
+a{
     color: black;
+    text-decoration: none;
 }
 a:hover{
-    color: #886644 ;
+    color: #886644;
+    text-decoration: underline;
 }
 body{
     background-image: linear-gradient(#765729, black);
@@ -86,8 +94,8 @@ header, main, aside{
    
 }
 
-
-
+:lang(fr), :lang(is), :lang(it){
+    font-style: italic;}
 
 
  main img{
@@ -98,17 +106,30 @@ header, main, aside{
      
  }
 
-
- 
-main p::first-line
-{
+#cover{
+    width: 200px;
     
     float: left;
-    clear: both;
+}
+/* #cryptogram{
+     text-align: center;
+ }
+ #cryptogram{
+     width:70%;
+     max-width: 30rem;
+     
+ }*/
+
+main p:first-of-type::first-line
+{
+    
+    font-size: 150%;
 }
 
 header{
+    text-align: center;
     background-image: url(/img/cave.jpg);
+    background-size: 100%;
     border: solid #886644 ;
     box-shadow: 5px 5px 20px black inset;
     font-family: georgia;
@@ -117,16 +138,20 @@ header{
     font-size: larger;
     text-shadow: .5px 1px white ; 
 }
-
+.opinion{
+    text-align:center;
+}
 .submission   {
     font-size: 2em;
     text-align: center;
     padding: 20px;
     border: solid;
     margin-top: 10px;
+    background-color: rgba(255,255,255, .5);
 }
 .signature{
     text-align: right;
+    
 }
 footer{
     background-color: rgba(255,255,255, .75);
