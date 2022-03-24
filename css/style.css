@@ -109,16 +109,9 @@ header, main, aside{
 #cover{
     width: 200px;
     
+    
     float: left;
 }
-/* #cryptogram{
-     text-align: center;
- }
- #cryptogram{
-     width:70%;
-     max-width: 30rem;
-     
- }*/
 
 main p:first-of-type::first-line
 {
