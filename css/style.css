@@ -1,12 +1,9 @@
 /* Journey to the Center of the Earth Practicum*/
 /*Lori-Ann Nembhard*/
 
-/*body{
-    background-color: #765729;
-}*/
 
-/* Since header and footer have similar style, 
-I grouped them together as shown below*/
+
+/* For the structural element since they have slightly different code, I decided to separate them instead of grouping them*/
 
 header{
     background-color: rgba(255,255,255, .75);
@@ -115,12 +112,12 @@ header, main, aside{
 
 
  
-/*main p
+main p
 {
     
-    float: left;
+    
     clear: both;
-}*/
+}
 
 header{
     background-image: url(/img/cave.jpg);
