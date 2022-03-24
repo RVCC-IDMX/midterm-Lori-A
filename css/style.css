@@ -69,12 +69,14 @@ figure {
 }
 figure img{
     align-content: center;
+    text-align: center;
     
     clear: both;
 }
 
 figcaption{
     font-style: italic;
+    text-align: center;
 }
 h2{
     font-weight: bold;  
@@ -113,12 +115,12 @@ header, main, aside{
 
 
  
-main p::first-line
+/*main p
 {
     
     float: left;
     clear: both;
-}
+}*/
 
 header{
     background-image: url(/img/cave.jpg);
